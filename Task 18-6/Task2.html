@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task2</title>
-</head>
-<body>
-    <head><h1>Employee interests survey form</h1></head>
-    <label for="name">Enter your name:</label>
-    <input type="text" name="name" id="name">
-    <br><br>
-    <label for="department">Enter your department</label>
-    <input type="text" name="department" id="department">
-    <br>
-    <br>
-    <label for="yourself">Tell us a little about yourself: </label>
-    <textarea name="yourself" id="yourself" cols="30" rows="10" ></textarea>
-    <br><br>
-    <label for="excerise"> do you excerise at home :</label>
-    <label ><input type="radio" name="excerise" id="excerise">yes</label>
-    <label ><input type="radio" name="excerise" id="excerise">No</label>
-    <p>How do you like to read about your favorite topics?</p>
-    <br>
-    <br>
-   
-    <input type="checkbox" name="topics" id="book">
-    <label for="Books">Books</label>
-   
-    <input type="checkbox" name="topics" id="online">
-    <label for="Online">Online recourses</label>
-    
-    <input type="checkbox" name="topics" id="phone apps">
-    <label for="phone apps">Phone apps</label>
-   
-    <input type="checkbox" name="topics" id="Magazines">
-    <label for="Magazines">Magazines</label>
-    <br>
-    <br>
-    <label for="movies">what genere of movies do you like?</label>
-    
-    <select name="movies" id="movie"><option value="Comedy">comedy</option>
-    <option value="romance">romance</option>
- <label for="Magazines">Magazines</label><option value="horror">horror</option></select>
- <br><br>
- <button type="submit">submit form</button>
-</body>
+  </head>
+  <body style="text-align: center;">
+    <h1>Emplyee Interests Survey form</h1>
+    <form action="" method="get">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="Name" id="name" />
+      <br /><br />
+      <label for="dep">Enter your department: </label>
+      <input type="text" name="Department" id="dep" />
+      <br /><br />
+      <label for="self">Tell us a little about yourself:</label>
+      <textarea name="self" id="self" cols="30" rows="10"></textarea>
+      <br /><br />
+      <label>Do you excercise at hime?</label>
+      <input type="radio" name="excercise" id="yes" />
+      <label for="yes">Yes</label>
+      <input type="radio" name="excercise" id="No" />
+      <label for="No">No</label>
+      <br><br>
+      <label>How do you like to read about your faviorate topics?</label>
+      <br /><br />
+      <input type="checkbox" name="Book" id="books" />
+      <label for="books">Books</label>
+      <input type="checkbox" name="online" id="onlineres" />
+      <label for="onlineres">Online resources</label>
+      <input type="checkbox" name="Phone" id="phone" />
+      <label for="phone">Phone apps</label>
+      <input type="checkbox" name="Magazines" id="magazines" />
+      <label for="magazines">Magazines</label>
+      <br /><br />
+      <label>what genre of movies do you like? </label>
+      <select name="movies" id="movie">
+        <option value="comedy">comedy</option>
+        <option value="horror">horror</option>
+        <option value="romance">romance</option></select
+      ><br><br>
+      <button type="submit">Submit form</button>
+    </form>
+  </body>
 </html>

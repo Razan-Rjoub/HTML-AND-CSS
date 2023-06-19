@@ -6,7 +6,7 @@
     <title>Task3</title>
   </head>
   <body>
-    <form action="" method="get">
+    <!-- <form action="" method="get">
       <fieldset>
         <legend>Name</legend>
         <label for="name">First name</label>
@@ -78,6 +78,63 @@
       <br />
 
       <button type="submit">submit</button>
-    </form>
+    </form> -->
+    <h1>Basic HTML Form</h1>
+    <form action="" method="get">
+    <fieldset>
+        <legend>Name</legend>
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" name="FirstName" id="fname">
+        <br><br>
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" name="LastName" id="lname">
+
+    </fieldset>
+    <fieldset>
+        <legend>Other Questions</legend>
+        <label >Choose a drink:</label>
+        <br>
+        <input type="radio" name="drink" id="coffee">
+        <label for="coffee">coffee</label>
+        <br>
+        <input type="radio" name="drink" id="tea">
+        <label for="tea">tea</label>
+        <br>
+        <input type="radio" name="drink" id="hot">
+        <label for="hot">hot chocolate</label>
+        <br><br>
+        <label >What ice cream do you like?</label>
+        <br>
+        <input type="checkbox" name="chocolate" id="choco">
+        <label for="choco">Chocolate</label>
+        <br>
+        <input type="checkbox" name="pudding" id="pudding">
+        <label for="pudding">Chocolate Pudding</label>
+        <br>
+        <input type="checkbox" name=peanut" id="peanut">
+        <label for="peanut">Chocolate Peanut Butter</label>
+        <br>
+        <input type="checkbox" name="vanilla" id="vanilla">
+        <label for="vanilla">Vanilla</label>
+        <br>
+        <input type="checkbox" name="strawbery" id="strawbery">
+        <label for="strawbery">Strawbery</label>
+        <br>
+        <br>
+        <label >Select a school:</label>
+        <br>
+        <select name="school" id="school">
+            <option value="harvard">Harvard</option>
+            <option value="Canda">Canda</option>
+            <option value="Oxford">Oxford</option>
+        </select>
+        <br><br>
+        <label for="comments">Please provide comments:</label>
+        <br>
+        <textarea name="comment" id="comments" cols="30" rows="10"></textarea>
+    </fieldset>
+</form>
   </body>
 </html>
