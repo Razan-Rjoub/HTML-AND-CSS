@@ -1,0 +1,28 @@
+img {
+  width: 170px;
+  height: 100px;
+}
+div {
+  border: 1px solid;
+  width: 170px;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+  height: 400px;
+  position: relative;
+}
+p {
+  padding-left: 5px;
+}
+h3 {
+  padding-left: 5px;
+  font-size: 20px;
+}
+footer {
+  position: absolute;
+  top: 350px;
+  bottom: 0;
+  background-color: rgb(64, 63, 63);
+  width: 100%;
+  color: white;
+}
