@@ -1,0 +1,146 @@
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(14, auto);
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .blue {
+    background-color: aqua;
+    grid-column: 1/15;
+    height: 80px;
+  }
+  .orangegrid {
+    display: grid;
+    grid-column: 1/5;
+  }
+  .orange {
+    background-color: orange;
+    display: grid;
+    height: 100px;
+    
+  }
+  .white {
+    background-color: white;
+    height: 40px;
+    margin: 5px;
+    
+  }
+
+  .graygrid {
+    display: grid;
+    grid-column: 5/12;
+    row-gap: 5px;
+  }
+  .gray {
+    background-color: gray;
+    height: 96px;
+  }
+  .greengrid {
+    display: grid;
+    grid-column: 12/15;
+  }
+  .green {
+    background-color: greenyellow;
+    height: 100px;
+  }
+  @media only screen and (max-width: 768px) and (min-width: 481px){
+    .grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(9, auto);
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .blue {
+    background-color: aqua;
+    grid-column: 1/10;
+    height: 80px;
+  }
+  .orangegrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .orange {
+    background-color: orange;
+    display: grid;
+    height: 50px;
+    grid-row: 2/3;
+    
+  }
+  .white {
+    background-color: white;
+    height: 35px;
+    grid-row: 2/3;
+    width:165px;
+    margin: 5px; 
+    
+  }
+
+  .graygrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .gray {
+    background-color: gray;
+    height:80px;
+  }
+  .greengrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .green {
+    background-color: greenyellow;
+    height: 20px;
+  }
+  }
+  @media screen and (max-width:480px){
+    .grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(9, auto);
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+  .blue {
+    background-color: aqua;
+    grid-column: 1/10;
+    height: 80px;
+  }
+  .orangegrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .orange:nth-child(3),
+  .orange:nth-child(4),.orange:nth-child(5) {
+    display: none;
+  }
+  .orange {
+    background-color: orange;
+    height:70px;
+  }
+  .white {
+    background-color: white;
+    height:25px;
+  }
+
+  .graygrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .gray {
+    background-color: gray;
+    height:40px;
+  }
+  .greengrid {
+    display: grid;
+    grid-column: 1/10;
+  }
+  .green {
+    background-color: greenyellow;
+    height: 15px;
+  }
+  }
