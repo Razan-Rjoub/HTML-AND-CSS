@@ -114,13 +114,11 @@
     display: grid;
     grid-column: 1/10;
   }
-  .orange:nth-child(3),
-  .orange:nth-child(4),.orange:nth-child(5) {
-    display: none;
-  }
+
   .orange {
     background-color: orange;
     height:70px;
+   
   }
   .white {
     background-color: white;

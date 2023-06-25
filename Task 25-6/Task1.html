@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .bluetransition{
+            background-color: blue;
+            width:100px ;
+            height: 100px;
+            transition: width 2s;
+            transition-timing-function: ease-out;
+        }
+        .bluetransition:hover{
+            width: 300px;
+        }
+        .pinktransition{
+            background-color: palevioletred;
+            width: 100px;
+            height: 100px;
+            transition: width 3s, height 4s;
+        }
+        .pinktransition:hover{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The transition property</h1>
+    <div class="bluetransition"></div>
+    <hr>
+    <div class="pinktransition"></div>
+</body>
+</html>
