@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <style>
+.flex{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img{
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+}
+@media screen and (max-width:480px){
+    .flex{
+        flex-direction: column;
+    }
+    img{
+   
+    width:100%;
+    height: 100%;
+}  
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div><img src="./images/pexels-consuelo-borroni-14894654.jpg" alt=""></div>
+        <div><img src="./images/pexels-céline-14448266.jpg" alt=""></div>
+        <div><img src="./images/pexels-lina-kivaka-17211591.jpg" alt=""></div>
+        <div><img src="./images/pexels-luke-miller-14900792.jpg" alt=""></div>
+        <div><img src="./images/pexels-mathias-reding-11299696.jpg" alt=""></div>
+        <div><img src="./images/pexels-matteo-milan-10770234.jpg" alt=""></div>
+        <div><img src="./images/pexels-ricardo-oliveira-17058050.jpg" alt=""></div>
+        <div><img src="./images/pexels-sasha-17260471.jpg" alt=""></div>
+    </div>
+</body>
+</html>
